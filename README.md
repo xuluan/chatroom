@@ -1,8 +1,8 @@
-
 Install and Run
 
-- download source code
-git clone https://github.com/xuluan/chatroom.git
+- download source code:
+
+> git clone https://github.com/xuluan/chatroom.git
 
 - install package
 npm install
