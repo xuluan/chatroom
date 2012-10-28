@@ -2,12 +2,14 @@ Install and Run
 
 - download source code:
 
-> git clone https://github.com/xuluan/chatroom.git
+>> git clone https://github.com/xuluan/chatroom.git
 
-- install package
-npm install
+- install package:
 
-- run
-node app.js
+>> npm install
 
-open your browser: http://localhost:8000
+- run:
+>> node app.js
+
+
+Then open your browserand go to: http://localhost:8000
