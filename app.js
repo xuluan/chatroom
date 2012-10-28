@@ -8,10 +8,6 @@ app.get('/socket.js', function (req, res) {
   res.sendfile(__dirname + '/socket.io.js');
 });
 
-app.get('/index.html', function (req, res) {
-  res.sendfile(__dirname + '/index.html');
-});
-
 app.get('/', function (req, res) {
   res.sendfile(__dirname + '/index.html');
 });

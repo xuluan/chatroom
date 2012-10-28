@@ -25,7 +25,7 @@ var insertMessage= function(data) {
 
 };
 
-  var socket = io.connect('http://192.168.89.198:8000');
+  var socket = io.connect(location.href);
   socket.on("connect", function(data){
   	nickname = prompt("please input your name:");
   	socket.emit("join", nickname);
